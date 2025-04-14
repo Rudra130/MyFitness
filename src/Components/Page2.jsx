@@ -36,7 +36,7 @@ const Page2 = () => {
       
           {/* Why Choose Zym Section */}
           <div className="w-full md:w-3/5 mt-16 text-center">
-            <h3 className="text-3xl md:text-4xl font-semibold text-purple-700 mb-4">Why Choose Zym?</h3>
+            <h3 className="text-3xl md:text-4xl font-semibold text-purple-700 mb-4">Why Choose Healthify?</h3>
             <p className="text-xl text-gray-600 leading-relaxed">
               Zym merges technology with wellness. Every feature is crafted for personalization, motivation, and measurable progress.
             </p>

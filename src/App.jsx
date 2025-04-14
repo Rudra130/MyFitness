@@ -11,7 +11,7 @@ import Page5 from './Components/Page5';
 function Navbar() {
   return (
     <nav className="flex justify-between items-center px-8 py-4 bg-indigo-600 text-white shadow sticky top-0 z-50">
-      <h1 className="text-3xl font-bold">Zym</h1>
+      <h1 className="text-3xl font-bold">Healthify</h1>
       <div className="space-x-6 text-xl">
         <a href="#login" className="hover:underline">Login</a>
         <a href="#signup" className="hover:underline">Sign Up</a>
@@ -38,17 +38,17 @@ function App() {
 
   return (
     <div className="App font-sans">
-    <header className="text-center py-3 bg-gradient-to-r from-zinc-900 to-indigo-600  text-white shadow-lg sticky top-0 z-50">
+    <header className="text-center py-3 bg-gradient-to-r from-lime-500 to-green-300  text-white shadow-lg sticky top-0 z-50">
       <div className="flex flex-col md:flex-row items-center justify-between px-6">
         {/* Left section (heading and tagline) */}
         <div className="text-center ">
-          <h1 className="text-4xl md:text-5xl font-extrabold animate-pulse">Zym - Your Fitness Partner</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold animate-pulse">Healthify</h1>
           <p className="mt-2 text-lg animate-fade-in">Track. Transform. Triumph.</p>
         </div>
         {/* Right section (Login and Signup links) */}
         <div className="mt-4 md:mt-0 space-x-6 text-lg text-center md:text-right">
-          <a href="#login" className="hover:underline">Login</a>
-          <a href="#signup" className="hover:underline">Sign Up</a>
+          <a href="#login" className=" text-black hover:underline">Login</a>
+          <a href="#signup" className=" text-black hover:underline">Sign Up</a>
         </div>
       </div>
     </header>
@@ -61,7 +61,7 @@ function App() {
       
     </main>
     <footer className="text-center p-6 bg-gray-800 text-white text-lg">
-      <p>&copy; {new Date().getFullYear()} Zym App. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Healthify App. All rights reserved.</p>
     </footer>
   </div>
   

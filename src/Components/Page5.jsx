@@ -16,7 +16,7 @@ const Page5 = ({progressData}) => {
           <CircularProgressbar
             value={progressData.steps}
             maxValue={10000} // Max steps per day
-            text={`${progressData.steps}%`}
+            text={`${progressData.steps}`}
             styles={buildStyles({
               pathColor: '#4caf50', 
               textColor: '#333',
@@ -34,7 +34,7 @@ const Page5 = ({progressData}) => {
           <CircularProgressbar
             value={progressData.calories}
             maxValue={2000} // Max calories per day
-            text={`${progressData.calories}%`}
+            text={`${progressData.calories}`}
             styles={buildStyles({
               pathColor: '#ff5722', 
               textColor: '#333',
