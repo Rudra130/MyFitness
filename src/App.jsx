@@ -1,12 +1,13 @@
 
-import Page1 from './Components/page1'
-import Page2 from './Components/page2'
-import Page3 from './Components/page3'
+import Page1 from './Components/Page1';
+import Page2 from './Components/Page2';
+import Page3 from './Components/Page3';
+import Page4 from './Components/Page4';
+import Page5 from './Components/Page5';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import Page4 from './Components/page4';
-import Page5 from './Components/Page5';
+i
 
 function Navbar() {
   return (
