@@ -7,7 +7,7 @@ import Page5 from './Components/Page5';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-i
+
 
 function Navbar() {
   return (
